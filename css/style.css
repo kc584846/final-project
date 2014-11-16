@@ -3,6 +3,10 @@
     use this file for your custom styles
 ========================================== */
 
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Kreon);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 /* use a box model that makes sense */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -45,25 +49,72 @@ h4 {
     place your custom styles below here
 ========================================== */
 
+/*
+PinkPhreak - #F81B7A
+'roundTheClockOrange - #FE4E36
+Twi Highlights (purple) - #E837E9
+*/
 
 
+header{
+    width: 100%;
+    height: 50%;
+    background-color: #F81B7A;
+    font-size: 1.5em;
+    text-align: center;
+    border: solid black;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: 'Anton', sans-serif;
+}
 
+h1{
+    font-size: 2em;
+}
 
+img{
+    height: 250px;
+    width: 167px;
+}
 
+<!--
+#squares{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.squareabout{
+    background-color: pink;
+}
+.squareresume{
+    background-color: green;
+}
+.squaretheatre{
+    background-color: blue;
+}
+.squaresju{
+    background-color: yellow;
+}
+-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.site-footer a{
+    font-size: 20px;
+    color: #E837E9;
+    text-decoration: none;  
+    padding: 13%;
+    font-family: 'Kreon', serif;
+}
+.site-footer a:hover{
+    color: #FE4E36;
+    text-decoration: underline;    
+}
+footer{
+    border: solid;
+    display: inline-block;
+    margin: 2%;
+    width: 100%;
+    height: 50%;
+}
 
 
 
