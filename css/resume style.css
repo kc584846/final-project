@@ -1,0 +1,42 @@
+body{
+    background-image: url('../img/wild_flowers.png');
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;    
+    padding-top: 0%;
+}
+h1{
+    font-style: italic;
+    color: #F81B7A; 
+    text-align: center;
+}
+
+h2{
+    font-family: sans-serif;
+    color: #FE4E36;
+}
+
+h3{
+    font-style: oblique;
+}
+.current, .permanent{
+    font-family: monospace;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.permanent{
+    float: right;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+

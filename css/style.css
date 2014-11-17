@@ -6,6 +6,7 @@
 @import url(http://fonts.googleapis.com/css?family=Anton);
 @import url(http://fonts.googleapis.com/css?family=Kreon);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 /* use a box model that makes sense */
 *, *:before, *:after {
@@ -21,46 +22,29 @@ html {
   line-height: 1.4;
 }
 
-/* make images and embedded media fluid */
-img,
-object {
-  max-width: 100%;
-}
-
-/* type hierarchy- change for your project */
-h1 {
-  font-size: 3em; /* 48px */
-}
-
-h2 {
-  font-size: 2.25em /* 36px */
-}
-
-h3 {
-  font-size: 1.75em /* 28px */
-}
-
-h4 {
-  font-size: 1.125em /*18px */
-}
-
-/* =======================================
-    author styles
-    place your custom styles below here
-========================================== */
 
 /*
 PinkPhreak - #F81B7A
 'roundTheClockOrange - #FE4E36
 Twi Highlights (purple) - #E837E9
+Morning Lilac - #9061C2
+sky sky - #BE80FF
+
+font-family: 'Kreon', serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
 */
 
+body{
+    padding: 3%;
+    background-image: url('../img/logo_x_pattern.png');
+    background-attachment: fixed;
+}
 
 header{
     width: 100%;
     height: 50%;
-    background-color: #F81B7A;
-    font-size: 1.5em;
+    background-image: url('../img/pink.png');
     text-align: center;
     border: solid black;
     margin-top: 1%;
@@ -68,13 +52,31 @@ header{
     font-family: 'Anton', sans-serif;
 }
 
-h1{
+header h1{
+    font-size: 4em;
+}
+
+.main{
+    float: right;
+}
+
+.main h1{
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    color: #9061C2;
+}
+
+p{
     font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 img{
     height: 250px;
     width: 167px;
+    float: left;
+    margin-top: 2%;
+    margin-right: 5%;
 }
 
 <!--
@@ -99,19 +101,19 @@ img{
 
 .site-footer a{
     font-size: 20px;
-    color: #E837E9;
+    color: #ED1C7A;
     text-decoration: none;  
     padding: 13%;
     font-family: 'Kreon', serif;
 }
 .site-footer a:hover{
-    color: #FE4E36;
+    color: #BE80FF;
     text-decoration: underline;    
 }
 footer{
     border: solid;
     display: inline-block;
-    margin: 2%;
+    margin-top: 10%;
     width: 100%;
     height: 50%;
 }
