@@ -29,6 +29,7 @@ PinkPhreak - #F81B7A
 Twi Highlights (purple) - #E837E9
 Morning Lilac - #9061C2
 sky sky - #BE80FF
+Smooth Sailing - #63D3FF
 
 font-family: 'Kreon', serif;
 font-family: 'Anton', sans-serif;
@@ -44,7 +45,8 @@ body{
 header{
     width: 100%;
     height: 50%;
-    background-image: url('../img/pink.png');
+    background-image: url('../img/bubbles.jpg');
+    background-repeat: repeat;
     text-align: center;
     border: solid black;
     margin-top: 1%;
@@ -69,7 +71,7 @@ header h1{
 p{
     font-size: 2em;
     font-family: 'Ubuntu', sans-serif;
-}
+}   
 
 img{
     height: 250px;
@@ -77,6 +79,12 @@ img{
     float: left;
     margin-top: 2%;
     margin-right: 5%;
+}
+.cool{
+    float: right;
+}
+.musicals{
+    float: right;
 }
 
 <!--
@@ -101,13 +109,13 @@ img{
 
 .site-footer a{
     font-size: 20px;
-    color: #ED1C7A;
+    color: #ED1FB6;
     text-decoration: none;  
     padding: 13%;
     font-family: 'Kreon', serif;
 }
 .site-footer a:hover{
-    color: #BE80FF;
+    color: #63D3FF;
     text-decoration: underline;    
 }
 footer{
