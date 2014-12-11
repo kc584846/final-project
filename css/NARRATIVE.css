@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Kreon);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/*
+purple - #9061C2
+blue - #14C1E3
+pink - #E837E9
+
+font-family: 'Kreon', serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+*/
+
+h1{
+    font-family: 'Anton', sans-serif;
+    color: #9061C2;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    color: #14C1E3;
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Kreon', serif;
+    color: #E837E9;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+}
+
+body{
+    padding: 3%;
+    background-image: url('../img/wild_flowers.png');
+    background-attachment: fixed;
+}
+
+.heading2{
+    padding-left: 5%;
+    padding-right: 7%;
+}
+
+.heading3{
+    padding-left: 9%;
+    padding-right: 11%;
+}
